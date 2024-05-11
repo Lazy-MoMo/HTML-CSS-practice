@@ -7,7 +7,7 @@ width: 100%;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 
@@ -18,13 +18,14 @@ width: 100%;
 }
 
 .profile-picture{
-    width: 80%;
+    width: 36px;
     border-radius: 25px;
 
 }
 
 .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position:relative;
 }
 
 .videoauthor{
@@ -45,3 +46,18 @@ width: 100%;
     row-gap: 40px;
 }
 
+.video-time{
+    font-family: roboto , arial;
+    font-size: 12px;
+    font-family: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom:8px;
+    right: 5px;
+}
