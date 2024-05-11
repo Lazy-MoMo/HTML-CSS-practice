@@ -1,10 +1,7 @@
 
-p{
-    font-family:arial;
-}
 
-    .video-title{
-        font-family: Arial;
+
+     .video-title{ 
         font-size: 20px;
         font-weight: bold;
         text-align: left;
@@ -12,21 +9,18 @@ p{
         line-height: 27px;
         margin-bottom: 6px;
     }
-    .stats{
-        
+    .stats{ 
         font-size: 14px;
         color: rgb(96, 96, 96);
         margin-top: 0px;
         margin-bottom: 16px;
     }
-    .author{
-        
+    .author{ 
         color: rgb(96, 96, 96);
         margin-top: 0px;
         margin-bottom: 16px;
     }
-    .description{
-        
+    .description{ 
         font-size: 14px;
         color: rgb(96, 96, 96);
         width: 280px;

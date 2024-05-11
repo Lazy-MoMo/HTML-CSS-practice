@@ -1,5 +1,10 @@
+.video-link{
+    color: black;
+    text-decoration-line: none;
+}
+
 .thumbnail{
-width: 100%;
+    width: 100%;
 }
 
 .videotitle{
@@ -20,7 +25,6 @@ width: 100%;
 .profile-picture{
     width: 36px;
     border-radius: 25px;
-
 }
 
 .thumbnail-row{
@@ -46,14 +50,28 @@ width: 100%;
     row-gap: 40px;
 }
 
+@media (max-width: 900px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1099px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1100px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-time{
-    font-family: roboto , arial;
+    
     font-size: 12px;
-    font-family: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding:4px;
     border-radius: 2px;
     background-color: black;
     color: white;
