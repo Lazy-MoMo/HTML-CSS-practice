@@ -1,0 +1,14 @@
+.left-sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 28, 28);
+    position: fixed;
+    top:55px;
+    width: 360px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    
+}

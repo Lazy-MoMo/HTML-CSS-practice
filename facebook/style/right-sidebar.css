@@ -1,0 +1,14 @@
+.right-sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 199, 36);
+    position: fixed;
+    top:55px;
+    width: 360px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    
+}
