@@ -1,14 +1,77 @@
 .right-sidebar{
     display: flex;
     flex-direction: column;
-    background-color: rgb(36, 199, 36);
-    position: fixed;
+    position:fixed;
     top:55px;
     width: 360px;
     right: 0px;
     bottom: 0px;
     z-index: 100;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.contacts{
+    padding-top: 20px;
+    display: solid;
+
+}
+
+.contacts-text{
+    display: block;
+    padding-left: 10px;
+    font-weight: 600;
+    color: rgb(101, 103, 107);
+    font-size: 17px;
+    position: relative;
+    align-items: start;
+    flex: 1;
+    background-color: red;
+}
+
+.search-button
+{
+    position: absolute;
+    left: 275px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+    padding-right: 20px;
+    transition: background-color 0.1s;
+
+}
+
+.search-button:hover{
+    background-color: rgba(220 ,220 ,220 , 0.5 );
+}
+
+.search-icon2{
+    
+    width: 15px;
+    height: 15px;
+}
+
+.setting-button{
+    position: absolute;
+    left: 305px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+    
+    transition: background-color 0.1s;
+}
+
+.setting-button:hover{
+    background-color: rgba(220 ,220 ,220 , 0.5 );
+}
+
+.settings{
+    position: relative;
+    color: gray;
     
 }
