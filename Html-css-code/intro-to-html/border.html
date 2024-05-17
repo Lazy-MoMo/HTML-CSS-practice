@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divborder {
+    border-bottom: 6px solid #C6C4C5;
+    position: relative; /* Required for pseudo-element positioning */
+}
+
+.divborder::after {
+    content: ""; /* Empty content for pseudo-element */
+    position: absolute;
+    height: 10px; /* Adjust this value to control the border length */
+    background: red; /* Color of the pseudo-border */
+    top: 100%; /* Position at the bottom of the container */
+    width: 50%; /* Adjust this to set the desired width */
+    left: 50%; /* Center the pseudo-border horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+    </style>
+</head>
+<body>
+    <div class="divborder"></div>
+</body>
+</html>

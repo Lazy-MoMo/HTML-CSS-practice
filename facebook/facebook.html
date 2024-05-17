@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="/facebook//style/header.css">
     <link rel="stylesheet" href="/facebook/style/left-sidebar.css">
     <link rel="stylesheet" href="/facebook/style/right-sidebar.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <header class="header">
         <div class="left-section-header">
             <img class="facebook-logo" src="/facebook/header/Facebook_Logo_Primary.png">
-             <div class="search-bar-all">
-                 <input class="search-bar" type="text" placeholder="Search Facebooks">
-                 <img class="search-icon" src="/facebook/header/search-interface-symbol.png">
-            </div>
+             <form>
+                <div class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="text" placeholder="Search Facebook">
+                </div>
+             </form>
         </div>
         <div class="middle-section-header">
             <div class="home-icon-container" >
@@ -53,6 +55,18 @@
         </div>
     </header>
     <nav class="left-sidebar">
+        <div class="primary-left-sidebar" >
+            <button class="left-sidebar-button" ><div class="left-sidebar-link" ><img class="profile-picture-sb" src="/facebook/profile picture/IMG_20240121_170713.jpg"><div class="left-sidebar-text" >Abhishekh joshi</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="friends" src="/facebook/Left-sidebar/friend.png"><div class="left-sidebar-text" >Friends</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="memories" src="/facebook/Left-sidebar/memories.png"><div class="left-sidebar-text" >Memories</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="saved" src="/facebook/Left-sidebar/saved.png"><div class="left-sidebar-text" >Saved</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="group" src="/facebook/Left-sidebar/groups.png"><div class="left-sidebar-text" >Groups</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="video" src="/facebook/Left-sidebar/video.png"><div class="left-sidebar-text" >Video</div></div></button>
+            <button class="left-sidebar-button" ><div class="left-sidebar-link"><img class="see-more" src="/facebook/Left-sidebar/down.png"><div class="left-sidebar-text" >See more</div></div></button>
+        </div>
+        <div class="secondary-left-sidebar">
+            <div class="heading" >Your shortcuts <button class="edit-button" href="#" >edit</button></div>
+        </div>
 
     </nav>
     <nav class="right-sidebar">

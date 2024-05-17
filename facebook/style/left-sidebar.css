@@ -1,14 +1,116 @@
 .left-sidebar{
     display: flex;
     flex-direction: column;
-    background-color: rgb(212, 28, 28);
     position: fixed;
     top:55px;
     width: 360px;
     left: 0px;
     bottom: 0px;
     z-index: 100;
-    justify-content: center;
-    align-items: center;
+    padding-top: 20px;
+    justify-content: start;
+    align-items: start; 
+}
+
+.primary-left-sidebar{
+    display: block;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    padding-bottom: 5px;
     
+}
+
+
+
+.left-sidebar-link{
+    height: 44px;
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.profile-picture-sb,
+.friends,
+.memories,
+.saved,
+.group,
+.video,
+.see-more{
+    height: 36px;
+    width: 36px;
+}
+
+.profile-picture-sb{
+    object-fit: cover;
+}
+
+.left-sidebar-text{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+    line-height: 20px;
+    
+
+}
+
+.left-sidebar-button{
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.left-sidebar-button:hover{
+    background-color: rgba(220 ,220 ,220 , 0.5 );
+    cursor: pointer;
+}
+
+.see-more{
+    
+}
+
+.secondary-left-sidebar{
+    display: block;
+    align-items: start;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+.heading{
+    position: relative;
+    color: rgb(101, 103, 107);
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+    
+    
+}
+
+.edit-button{
+    position: absolute;
+    left: 300px;
+    top: -6px;
+    color: rgb(65, 151, 209);
+    font-weight: 100;
+    opacity: 0;
+    transition: opacity 0.1s;
+    padding: 0px 4px 4px 4px;
+    border-style: none;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+
+.secondary-left-sidebar:hover .edit-button{
+    opacity: 1;
+}
+
+.edit-button:hover{
+    background-color: rgba(220 ,220 ,220 , 0.5 );
 }
