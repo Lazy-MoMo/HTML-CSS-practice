@@ -20,6 +20,7 @@
 
 .contacts-text{
     display: block;
+    padding-top: 10px;
     padding-left: 10px;
     font-weight: 600;
     color: rgb(101, 103, 107);
