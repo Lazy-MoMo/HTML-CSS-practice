@@ -1,0 +1,38 @@
+body{
+    background-color: #efefef;
+}
+
+.stories-container{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.stories-container .previous-button,
+.stories-container .next-button{
+    width: 30px;
+}
+
+.stories-container .story{
+    height: 160px;
+    width: 160px;
+}
+
+.stories-container .story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stories-container .stories{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.stories-container .content{
+    overflow-x: scroll;
+}
+
+.stories-container .content::-webkit-scrollbar{
+    display: none;
+}

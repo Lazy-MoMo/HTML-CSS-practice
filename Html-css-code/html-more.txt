@@ -1,0 +1,34 @@
+empty tag -- having no end tag
+
+<br>  line break  (empty tag)
+<p>this is a <br> paragraph with a line break.</p>
+
+alt attribute --shows alternate text when img doesnot load
+<img src="" alt="tero bau"></img>
+
+title attribute -- display addition info when you mouse over the element
+<p title="muji">k bhayo</p>
+
+<hr> element --used to separate content(draws horizontal line)(empty tag)
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2> 
+
+<pre> --preformatted text --text inside preserves both spaces and line 
+breaks.
+<pre>
+  My Bonnie lies over the ocean.
+  My Bonnie lies over the sea.
+  My Bonnie lies over the ocean.
+  Oh, bring back my Bonnie to me.
+</pre>
+
+<blockquote cite=""></> defines a section that is quoted from another 
+source.
+
+<q></q> for a short quotation.
+
+defines an abbreviation or an acronym line HTML,CSS,Mr.,DR.,ASAP,ATM 
+<abbr title="aishwarya vidya niektan">AVN</abbr>
+
+
