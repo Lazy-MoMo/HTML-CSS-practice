@@ -1,10 +1,11 @@
 body{
     background-color: #efefef;
+    padding-bottom: 2000px;
 }
 
 .stories-container{
     max-width: 600px;
-    margin: 50px auto;
+    margin: 24px auto;
 }
 
 .stories-container .previous-button,
@@ -13,8 +14,12 @@ body{
 }
 
 .stories-container .story{
-    height: 160px;
-    width: 160px;
+    height: 250px;
+    width: 140px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
 }
 
 .stories-container .story img{
@@ -25,14 +30,28 @@ body{
 
 .stories-container .stories{
     display: flex;
-    flex-direction: row;
     gap: 8px;
 }
 
 .stories-container .content{
     overflow-x: scroll;
+    scrollbar-width: none;
 }
 
 .stories-container .content::-webkit-scrollbar{
     display: none;
+}
+
+.stories-container .author{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    padding: 8px 16px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(transparent, #222 130%);
+    
 }
