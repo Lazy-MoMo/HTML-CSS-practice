@@ -1,16 +1,37 @@
 body{
-    background-color: #efefef;
+    background-color: #e2f1ed;
     padding-bottom: 2000px;
 }
 
 .stories-container{
     max-width: 600px;
     margin: 24px auto;
+    position: relative;
 }
 
 .stories-container .previous-button,
 .stories-container .next-button{
     width: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: #444;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.stories-container .previous-button{
+    left: 8px;
+    top: 50%;
+
+}
+
+.stories-container .next-button{
+    right: 8px;
+    top: 50%;
 }
 
 .stories-container .story{
